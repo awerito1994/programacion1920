@@ -17,7 +17,7 @@ public class Areadeuntriaguloclase3 {
         double base;
         double altura;
         
-        System.out.println("Ingrese el base");
+        System.out.println("Ingrese la base");
         Scanner entrada=new Scanner (System.in);
         base=entrada.nextDouble();
         
