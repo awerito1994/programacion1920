@@ -14,14 +14,15 @@ public class Tabla_Or {
     public static void main(String[] args) {
         System.out.println("TABLA DE VERDAD OR ");
         System.out.println("x \t y \t resultado");
+        
         System.out.println("___________________________");
         System.out.println("y \t V \t" + (true || true));
         System.out.println("___________________________");
-        System.out.println("y \t f \t" + (true || false));
+        System.out.println("y \t F \t" + (true || false));
         System.out.println("___________________________");
-        System.out.println("f \t V \t" + (false || true));
+        System.out.println("F \t V \t" + (false || true));
         System.out.println("___________________________");
-        System.out.println("f \t f \t" + (false || false));
+        System.out.println("F \t F \t" + (false || false));
         System.out.println("___________________________");
 
         System.out.println("TABLA DE VERDAD NOT");
