@@ -14,20 +14,20 @@ public class Ejercicio4 {
         double precio_U;
         double precio;
         double descuento ;
-        int cant;
+        int cantidad;
         String producto ;
         Scanner dato = new Scanner(System.in);
         System.out.println("Ingrese el producto; ");
         producto = dato.nextLine();
         System.out.println("Ingrese la cantidad de pedidos a realizar: ");
-        cant = dato.nextInt();
-        System.out.println("Ingrese el precio por unidad ");
+        cantidad = dato.nextInt();
+        System.out.println("Ingrese el precio por unidad: ");
         precio_U= dato.nextDouble();
-        precio = cant * precio_U;
+        precio = cantidad * precio_U;
         System.out.println("El precio del articulo: " + precio_U);  
-        if(cant >= 50){
+        if(cantidad >= 50){
             descuento = precio * 0.15;
-            System.out.println("El precio con descuento es"+ descuento);
+            System.out.println("El precio con descuento es: "+ descuento);
         }  
         if (precio < 1){
                 System.out.println("es\t" + precio +"centavos");
@@ -36,4 +36,4 @@ public class Ejercicio4 {
         }
         }       
 }
-}
+
