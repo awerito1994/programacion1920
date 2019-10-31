@@ -45,10 +45,11 @@ public class Ejercicio5 {
         double precio;
         if (n > 0 & n < 2) {
             precio = costo * (1 - 0.07);
-            System.out.println("El costo total del producto es " + precio);
+            System.out.println("El precio total del producto es " + precio);
         } else {
             precio = costo;
-            System.out.println("El costo total del producto es " + precio);
+            System.out.println("El precio total del producto es " + precio);
+            
 
         }
 
