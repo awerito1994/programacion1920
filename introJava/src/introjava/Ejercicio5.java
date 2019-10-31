@@ -17,9 +17,9 @@ public class Ejercicio5 {
         int hojas;
         int viguetas;
         int armazones;
-        double pH = 40;
-        double pV = 60;
-        double pA = 59;
+        double pH = 100;
+        double pV = 50;
+        double pA = 40;
 
         System.out.println("Ingresar el valor de cantidad de hojas de hielo seco: ");
         Scanner entrada = new Scanner(System.in);
