@@ -21,10 +21,10 @@ public class Ejercicio3_con_el_if {
         if (nota >=0 && nota<=10) {
             if (nota>0 && nota <=4) {
                 System.out.println("La nota del alumno es insuficiente. ");
-            }else if(nota>=5 && nota<=6) {
+            }else if(nota>=5 && nota<=6.9) {
                 System.out.println("La nota del alumno es suficiente.");
                     
-            }else if (nota >=7 && nota <=8){
+            }else if (nota >=7 && nota <=8.9){
                 System.out.println("La nota del alumno es buena.");
             }else if(nota>=9 && nota<=10){
                 System.out.println("La nota del alumno es notable.");
