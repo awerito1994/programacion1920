@@ -12,18 +12,18 @@ package ejercicios_Proyecto;
 public class ejercicio2_while {
 
     public static void main(String[] args) {
-        int it = 1;
+        int i = 1;
         int cont = 0;
         int num = 1;
         int suma_div = 0;
 
         System.out.println("Los 4 primeros números perfectos son: ");
         while (cont < 4) {
-            while (it < num) {
-                if ((num % it) == 0) {
-                    suma_div += it;
+            while (i < num) {
+                if ((num % i) == 0) {
+                    suma_div += i;
                 }
-                it++;
+                i++;
             }
 
             if (suma_div == num) {
@@ -31,7 +31,7 @@ public class ejercicio2_while {
                 cont++;
             }
             suma_div = 0;
-            it = 1;
+            i = 1;
             num++;
         }
         System.out.println("");
