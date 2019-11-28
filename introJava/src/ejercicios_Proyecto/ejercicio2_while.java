@@ -5,6 +5,8 @@
  */
 package ejercicios_Proyecto;
 
+import java.util.Scanner;
+
 /**
  *
  * @author POWER COMPUTERS
@@ -12,30 +14,30 @@ package ejercicios_Proyecto;
 public class ejercicio2_while {
 
     public static void main(String[] args) {
-        int cont = 1;
-        int acumulador = 1;
-        int suma;
-        int max = 10000;
-        System.out.println("LOS 4 PRIMEROS NUMEROS PERFECTOS ");
-        System.out.println("_____________________________________________________");
-        while (cont <= max) {
+      int it = 1;
+        int cont = 0;
+        int num = 1;
+        int suma_div = 0;
+        Scanner input = new Scanner(System.in);
 
-            for (cont = 1; cont <= 10000;) {    // contador es el número que vamos a comprobar
-                cont++;
-                suma = 0;
-                for (acumulador = 1; acumulador < cont; acumulador++) {  // Amcumulador son los divisores. Se divide desde 1 hasta contador-1
-
-                    if (cont % acumulador == 0) {
-                        suma = suma + acumulador;     // si es divisor se suma
-                    }
+        System.out.println("Los 4 primeros números perfectos son: ");
+        while (cont < 4) {
+            while (it < num) {
+                if ((num % it) == 0) {
+                    suma_div +=  it;
                 }
-                if (cont == suma) {           // si el numero es igual a la suma de sus divisores es perfecto
-                    System.out.println("El siguiente numero es un numero perfecto :" + cont);
-
-                           
-                }
+                it++;
             }
+            
+            if(suma_div==num){
+                System.out.println("El siguiente número es numero perfecto: "+num);
+                cont++;
+            }
+            suma_div=0;
+            it=1;
+            num++;
         }
+        System.out.println("");
+    
     }
 }
-    
