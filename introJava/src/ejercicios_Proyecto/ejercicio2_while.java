@@ -5,7 +5,7 @@
  */
 package ejercicios_Proyecto;
 
-import java.util.Scanner;
+
 
 /**
  *
@@ -18,7 +18,7 @@ public class ejercicio2_while {
         int cont = 0;
         int num = 1;
         int suma_div = 0;
-        Scanner input = new Scanner(System.in);
+       
 
         System.out.println("Los 4 primeros números perfectos son: ");
         while (cont < 4) {
