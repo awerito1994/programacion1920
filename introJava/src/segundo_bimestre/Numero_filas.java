@@ -17,14 +17,14 @@ public class Numero_filas {
       
         int num;
         int cont =1;
-        String piramide = "";
+        String pascal = "";
         Scanner entrada = new  Scanner(System.in);
         System.out.println("Ingrese un numero");
         num = entrada.nextInt();
         System.out.println("----------------------------------------");
         while(cont <= num){
-            piramide += cont +",";
-            System.out.println(""+piramide);
+            pascal += cont +",";
+            System.out.println(""+pascal);
             cont++;
         }
                 
