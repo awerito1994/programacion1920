@@ -5,6 +5,8 @@
  */
 package Taller_segundo_bi;
 
+import java.util.Scanner;
+
 /**
  *
  * @author POWER COMPUTERS
